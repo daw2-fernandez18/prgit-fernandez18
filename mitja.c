@@ -5,9 +5,9 @@ int main() {
 	float mitja;
 	float nou_valor=0.0;
 	int numero_repeticions=0;
-	char consulta='s';
+	char consulta='yes';
 	
-	while(consulta=='s') {
+	while(consulta=='yes') {
 		printf("Dòna la següent dada: ");
 		scanf("%f",&nou_valor);
 		suma=suma+nou_valor;
